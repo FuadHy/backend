@@ -1,0 +1,49 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn start
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/nn/opt/anaconda3/bin:/opt/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/nn/opt/anaconda3/bin:/opt/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/nn/Developer/flutter/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/nn/.android-sdk-macosx/platform-tools/:/usr/local/mongodb/bin:/Users/nn/Developer/flutter/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/nn/.android-sdk-macosx/platform-tools/:/usr/local/mongodb/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  21.7.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOSPC: no space left on device, write
+
+npm manifest: 
+  {
+    "name": "aman-server",
+    "version": "1.0.0",
+    "description": "backend server",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "aman",
+    "license": "ISC",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "cors": "^2.8.5",
+      "ejs": "^3.1.10",
+      "express": "^4.19.2",
+      "formidable": "^3.5.1",
+      "jsonwebtoken": "^9.0.2",
+      "nodemon": "^3.1.4",
+      "sequelize": "^6.37.3",
+      "sqlite": "^5.1.1",
+      "sqlite3": "^5.1.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
